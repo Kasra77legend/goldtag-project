@@ -19,7 +19,7 @@
 .products-container{
     margin-top: 40px;
     display: grid;
-    width: 1152px;
+    width: 1273px;
     grid-template-rows: repeat(5,310px);
     grid-template-columns: repeat(4,310px);
     gap: 10px;
