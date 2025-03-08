@@ -218,7 +218,6 @@
 }
 
 .sale svg {
-  vertical-align: middle;
   margin-left: 5px;
   margin-bottom: 3px;
 }
@@ -295,7 +294,6 @@
 }
 
 .products .swiper-slide .sale svg {
-  vertical-align: middle;
   margin-left: 5px;
   margin-bottom: 3px;
 }

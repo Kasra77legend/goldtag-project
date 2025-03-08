@@ -142,7 +142,7 @@ main.grid-for-products .left-side .cards .card .product-cards .card-image .sale{
 }
 
 main.grid-for-products .left-side .cards .card .product-cards .card-image .sale svg{
-    vertical-align: middle;
+    
     margin-left: 5px;
     margin-bottom: 3px;
 }
@@ -722,7 +722,7 @@ main.grid-for-products .right-side aside .last-side h3{
 
 main.grid-for-products .right-side aside .last-side form input{
     direction: ltr;
-    vertical-align: middle;
+    
     
 }
 

@@ -47,13 +47,11 @@
     font-size:12px ;
     font-weight: 500;
     color: rgb(67, 111, 190);
-    vertical-align: middle;
     margin-left: 5px;
 }
 
 
 .subscribe .subscribe-container .email-add svg{
-    vertical-align: middle;
     margin-left: 2px;
     
 }
@@ -63,7 +61,6 @@
     height: 25px;
     align-self: center;
     direction: rtl;
-    vertical-align: middle;
     outline: none;
     border: none;
 }

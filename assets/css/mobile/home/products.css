@@ -206,7 +206,7 @@
   border: 1px solid #e6e6e6;
   border-radius: 4px;
   position: absolute;
-  top: 275px;
+  top: 390px;
   right: 8px;
   width: 120px;
   height: 25px;
@@ -218,7 +218,6 @@
 }
 
 .sale svg {
-  vertical-align: middle;
   margin-left: 5px;
   margin-bottom: 3px;
 }
@@ -234,20 +233,21 @@
 
 .products .swiper-slide{
   border: #6161611d;
+  padding: 10px;
 }
 
 .products .swiper-slide .product-card{
-  width: 300px;
-  height: 300px;
+  width: 226px;
+  height: 330px;
   border: 1px solid #6161611d;
   border-radius: 8px;
 }
 
 .products .swiper-slide .card-image {
-  background-size: cover;
+  background-size: contain;
   width: 100%;
-  height: 61%;
-  background-image: url(https://cdn3.goldtag.net/web/uploads/pictures/558x405/614915138_1740233729__750-544.jpg);
+  height: 51%;
+  background-image: url(https://cdn3.goldtag.net/web/uploads/pictures/620x450/331367745_1741179456__750-544.jpg);
 }
 
 .products .swiper-slide .product-card .price-tag {
@@ -257,7 +257,7 @@
   flex-flow: row wrap;
   justify-content: end;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 47px;
 }
 
 .products .swiper-slide .product-card .price-tag span {
@@ -284,7 +284,7 @@
   border-radius: 4px;
   position: absolute;
   top: 270px;
-  right: 8px;
+  right: 23px;
   width: 120px;
   height: 25px;
   font-family: goldtag-numbers;
@@ -295,7 +295,6 @@
 }
 
 .products .swiper-slide .sale svg {
-  vertical-align: middle;
   margin-left: 5px;
   margin-bottom: 3px;
 }
