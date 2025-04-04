@@ -129,8 +129,61 @@ nav{
     align-items: center;
     gap: 20px;
 }
+/* استایل های اصلی */
+nav.tablet {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  transition: left 0.3s ease;
+}
 
-.head .rt-h label:hover ~ nav{
-    top: 0;
-    left: 0;
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 999;
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 34%;
+  height: 100vh;
+  background: white;
+  z-index: 1000;
+  transition: left 0.3s ease;
+  padding: 15px 0;
+}
+
+#navmenu:checked ~ nav .nav-container {
+  left: 66%;
+}
+
+#navmenu:checked ~ nav .nav-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* استایل های تکمیلی */
+.menu-toggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container label[for="navmenu"] {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
 }

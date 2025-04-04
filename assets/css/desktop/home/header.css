@@ -6,17 +6,25 @@
     display: none;
 }
 
-.head{
-    display: flex;
+header{
+    background-color: #fff;
     width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.head{
+    
+    margin: 0 auto;
+    width: 1136px;
+    display: flex;
     height: 72px;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 15px;
 }
 
 .head .rt-h{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
@@ -79,7 +87,7 @@
 }
 
 .head .lt-h{
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
